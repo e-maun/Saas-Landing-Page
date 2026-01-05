@@ -1,1 +1,19 @@
-# Saas-Landing-Page
+# Saas-Landing-Page 1001
+
+## Purpose
+This project is for learning and practicing:
+- Bootstrap grid system
+- Navbar behavior
+- Hero section layout
+- Responsive design
+
+## Status
+🚧 Work in Progress
+
+## Tech Stack
+- HTML
+- CSS
+- Bootstrap 5
+
+## Notes
+This project is inspired by existing SaaS websites and is customized for learning purposes.
