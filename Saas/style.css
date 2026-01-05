@@ -1,0 +1,69 @@
+ body {
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+ }
+ 
+ .navbar{
+         background-color: transparent
+        }
+ #navAric{
+        font-family: "Outfit", sans-serif;
+        text-align: center;
+            
+        }
+a {
+  text-decoration: none; /* Removes the underline */
+  color: inherit;       /* Makes the link the same color as the surrounding text */
+}
+.btn-primary {
+    background-color: #000000;
+    border-radius: 100px;
+    
+}
+header .btn-primary{
+    font-size: 16px;
+    font-weight: 700;
+    height: 47px;
+    line-height: 32px;
+    margin-left: 34px;
+    margin-top: -11px;
+    padding: .4rem 23px;
+}
+HEADER.transparent{
+    background-color: transparent;
+}
+.block--blue{
+     background-color: rgba(170, 202, 247, 0.822);
+     height: 100vh
+     
+}
+.block--grey{
+    background-color: #969696cc;
+}
+.block--first{
+  padding-top: 180px;
+}
+#leftTXTcontainer{
+    padding: 100px;
+    padding-bottom: 200px;
+}
+.clamp-4 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+
+  line-clamp: 4; /* standard */
+  overflow: hidden;
+}
+
+.clamp-2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+
+  line-clamp: 2; /* standard */
+  overflow: hidden;
+}
+
+
+
