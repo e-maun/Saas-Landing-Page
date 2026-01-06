@@ -12,6 +12,9 @@ This project is for learning and practicing:
 ## Status
 🚧 Work in Progress
 
+##Progress
+Overall project completion: 30%
+
 ## Tech Stack
 - HTML
 - CSS
