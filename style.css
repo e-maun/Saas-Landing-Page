@@ -64,6 +64,21 @@ HEADER.transparent{
   line-clamp: 2; /* standard */
   overflow: hidden;
 }
+.nav-bar .dropdown-menu{
+    width: 100%;
+   left: 0;
+   right: 0;
+}
+.navbar .dropdown-item {
+    padding: 1rem 2rem;    /* top/bottom, left/right */
+    font-size: 1.1rem;
+}
+
+/* Optional: adjust divider */
+.navbar .dropdown-divider {
+    margin: 0.5rem 0;
+    border-color: #ccc;
+}
 
 
 
