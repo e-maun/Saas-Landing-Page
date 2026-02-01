@@ -79,6 +79,45 @@ HEADER.transparent{
     margin: 0.5rem 0;
     border-color: #ccc;
 }
+.accordion-item {
+  border: none;
+}
 
+.accordion-button {
+  background: transparent;
+  box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+  background: transparent;
+  color: inherit;
+  box-shadow: none;
+}
+.accordion-button::after {
+  display: none;
+}
+
+.accordion-button::before {
+  content: "";
+  width: 1rem;
+  height: 1rem;
+  background-image: var(--bs-accordion-btn-icon);
+  background-repeat: no-repeat;
+  background-size: 1rem;
+  margin-right: 1rem;
+  transition: transform 0.2s ease;
+}
+.accordion-button:not(.collapsed)::before {
+  transform: rotate(180deg);
+}
+.accordion-button {
+  padding-left: 0;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+#Second_Image1.img-fluid{
+    border: #000000 2px solid;
+    height: 50%;
+    
+}
 
 
