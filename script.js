@@ -10,3 +10,13 @@ window.addEventListener('scroll', () => {
    
   }
 });
+
+const image = document.getElementById("Second_Image1");
+const accordionItems = document.querySelectorAll(".accordion-collapse");
+
+accordionItems.forEach(item => {
+  item.addEventListener("shown.bs.collapse", function () {
+    const newImage = this.dataset.image;
+    image.src = newImage;
+  });
+});
