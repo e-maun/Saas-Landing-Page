@@ -47,6 +47,16 @@ HEADER.transparent{
     padding: 100px;
     padding-bottom: 200px;
 }
+.badge {
+  background-color: #d2f2c3e9;
+  color: #58ac04;
+}
+.bi-arrow-right {
+  color: #58ac04;
+  padding-left: 10px;
+#Shopify_logo{
+  color: #58ac04;
+}
 .clamp-4 {
   display: -webkit-box;
   -webkit-box-orient: vertical;

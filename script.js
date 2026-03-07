@@ -11,6 +11,7 @@ window.addEventListener('scroll', () => {
   }
 });
 
+//section 2: Accordion Image Change
 const image = document.getElementById("Second_Image1");
 const accordionItems = document.querySelectorAll(".accordion-collapse");
 
