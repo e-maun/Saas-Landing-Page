@@ -21,3 +21,34 @@ accordionItems.forEach(item => {
     image.src = newImage;
   });
 });
+
+// SECTION 3: Accordion Image / Carousel Switch
+
+const sec3Image = document.getElementById("sec3_rightImage");
+const sec3Carousel = document.getElementById("sec3_carousel");
+
+const sec3Items = document.querySelectorAll("#sec3_accordion .accordion-collapse");
+
+sec3Items.forEach(item => {
+  item.addEventListener("shown.bs.collapse", function () {
+
+    const id = this.id;
+    const newImage = this.dataset.image;
+
+    // If accordion 3 is opened
+    if (id === "sec3_collapseThree") {
+
+      sec3Image.style.display = "none";
+      sec3Carousel.classList.remove("d-none");
+
+    } 
+    else {
+
+      sec3Image.style.display = "block";
+      sec3Carousel.classList.add("d-none");
+
+      sec3Image.src = newImage;
+    }
+
+  });
+});
