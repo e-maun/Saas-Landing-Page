@@ -55,18 +55,37 @@ sec3Items.forEach(item => {
 // Section 3: Carousel Button Image Switch
 const buttons = document.querySelectorAll("#sec3_carousel button");
 const carouselImage = document.getElementById("sec3_carouselImage");
+let currentIndex = 0; // keep track of current active button
 
-buttons.forEach(btn => {
+buttons.forEach((btn, index) => {
   btn.addEventListener("click", function () {
 
     const newImg = this.dataset.image;
     carouselImage.src = newImg;
 
-    // remove active from all
+    // restart animation
+    carouselImage.classList.remove("drop-animation");
+    void carouselImage.offsetWidth; // force reflow
+    carouselImage.classList.add("drop-animation");
+
+    // remove active from all buttons
     buttons.forEach(b => b.classList.remove("active"));
 
-    // add active to clicked
+    // add active to clicked button
     this.classList.add("active");
 
+    // sync currentIndex with clicked button
+    currentIndex = index;
   });
 });
+
+// Auto-slide
+setInterval(() => {
+  currentIndex++; // move to next button
+
+  if (currentIndex >= buttons.length) {
+    currentIndex = 0; // loop back to first
+  }
+
+  buttons[currentIndex].click(); // trigger click on current button
+}, 2800);
