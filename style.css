@@ -127,5 +127,12 @@ HEADER.transparent{
     height: 50%;
     
 }
-
+/*section 3 carousel*/
+.btn-emphasis {
+  background-color: white;   /* your white background */
+  border: 2px solid #7f827e; /* change border color here */
+  color: #333;  
+  font-weight: bold;
+  margin-bottom: 4%;
+}
 
