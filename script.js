@@ -52,3 +52,21 @@ sec3Items.forEach(item => {
 
   });
 });
+// Section 3: Carousel Button Image Switch
+const buttons = document.querySelectorAll("#sec3_carousel button");
+const carouselImage = document.getElementById("sec3_carouselImage");
+
+buttons.forEach(btn => {
+  btn.addEventListener("click", function () {
+
+    const newImg = this.dataset.image;
+    carouselImage.src = newImg;
+
+    // remove active from all
+    buttons.forEach(b => b.classList.remove("active"));
+
+    // add active to clicked
+    this.classList.add("active");
+
+  });
+});
