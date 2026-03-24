@@ -164,7 +164,10 @@ HEADER.transparent{
    opacity: 0;
 }
 /*Section 4*/
-#sec4, #sec4_accordion {
+#sec4,
+#sec4 .accordion-item,
+#sec4 .accordion-button,
+#sec4 .accordion-body {
     background-color: #e4e4e4;
   
 }
