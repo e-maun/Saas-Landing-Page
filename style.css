@@ -131,6 +131,8 @@ HEADER.transparent{
 #sec3_carouselImage {
   border: 3px solid #000000;
   border-radius: 5px; /* smooth corners */
+   transition: opacity 0.5s ease, transform 0.5s ease; /* smooth fade & drop */
+   opacity: 1;
 }
 .btn-emphasis {
   background-color: white;   /* your white background */
@@ -158,5 +160,11 @@ HEADER.transparent{
 }
 
 .drop-animation {
-  animation: dropIn 0.5s ease forwards;
+   transform: translateY(-40px);
+   opacity: 0;
+}
+/*Section 4*/
+#sec4, #sec4_accordion {
+    background-color: #e4e4e4;
+  
 }

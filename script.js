@@ -12,13 +12,13 @@ window.addEventListener('scroll', () => {
 });
 
 //section 2: Accordion Image Change
-const image = document.getElementById("Second_Image1");
-const accordionItems = document.querySelectorAll(".accordion-collapse");
+const Second_image = document.getElementById("Second_Image1");
+const Second_accordionItems = document.querySelectorAll(".accordion-collapse");
 
-accordionItems.forEach(item => {
+Second_accordionItems.forEach(item => {
   item.addEventListener("shown.bs.collapse", function () {
     const newImage = this.dataset.image;
-    image.src = newImage;
+    Second_image.src = newImage;
   });
 });
 
@@ -89,3 +89,14 @@ setInterval(() => {
 
   buttons[currentIndex].click(); // trigger click on current button
 }, 2800);
+
+//section 4: Accordion Image Change
+const Fourth_image = document.getElementById("Fourth_Image1");
+const Fourth_accordionItems = document.querySelectorAll(".accordion-collapse");
+
+Fourth_accordionItems.forEach(item => {
+  item.addEventListener("shown.bs.collapse", function () {
+    const newImage = this.dataset.image;
+    Fourth_image.src = newImage;
+  });
+});
