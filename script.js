@@ -3,7 +3,7 @@ const navbar = document.querySelector('.navbar');
 window.addEventListener('scroll', () => {
   if (window.scrollY > 50) { // 50px down
     navbar.classList.add('bg-white', 'shadow');
-    navbar.classList.remove('navbar-dark'); // optional, switch text color
+    navbar.classList.remove('navbar-dark'); 
     
   } else {
     navbar.classList.remove('bg-white', 'shadow');
@@ -92,7 +92,7 @@ setInterval(() => {
 
 //section 4: Accordion Image Change
 const Fourth_image = document.getElementById("Fourth_Image1");
-const Fourth_accordionItems = document.querySelectorAll(".accordion-collapse");
+const Fourth_accordionItems = document.querySelectorAll("#sec4 .accordion-collapse");
 
 Fourth_accordionItems.forEach(item => {
   item.addEventListener("shown.bs.collapse", function () {
@@ -100,3 +100,4 @@ Fourth_accordionItems.forEach(item => {
     Fourth_image.src = newImage;
   });
 });
+
