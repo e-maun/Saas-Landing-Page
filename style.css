@@ -167,7 +167,12 @@ HEADER.transparent{
 #sec4 .accordion-item,
 #sec4 .accordion-button,
 #sec4 .accordion-body {
-    background-color: #e4e4e4;
+    background-color: #f2f9ffdd;
   
 }
 /*Section 5*/
+
+/*Section 7*/
+#sec7{
+  background-color: #f2f9ffdd;
+}
