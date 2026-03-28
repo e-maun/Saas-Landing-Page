@@ -174,5 +174,46 @@ HEADER.transparent{
 
 /*Section 7*/
 #sec7{
-  background-color: #f2f9ffdd;
+  background-color: #dbebf794;
+}
+sec7_arrow{
+  color: #0099ff;
+}
+.icon {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  
+}
+#sec7_wrapper {
+  position: relative;
+}
+.icon1 {
+  top: 10%;
+  left: 20%;
+  background-color: white;
+
+}
+.icon2 {
+  top: 60%;
+  left: 10%;
+  background-color: white;
+  
+}
+.icon3 {
+  top: 30%;
+  left: 70%;
+  background-color: white;
+  
+}
+.icon4 {
+  top: 100%;
+  left: 60%;
+  background-color: white;
+}
+.icon5 {
+  top: 10%;
+  left: 80%;
+  background-color: white;
 }
