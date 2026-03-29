@@ -185,6 +185,9 @@ sec7_arrow{
   height: 60px;
   border-radius: 50%;
   
+  object-fit: contain;
+  background-color: white; /* optional, looks clean */
+  padding: 10px;
 }
 #sec7_wrapper {
   position: relative;
@@ -208,7 +211,7 @@ sec7_arrow{
   
 }
 .icon4 {
-  top: 100%;
+  top: 90%;
   left: 60%;
   background-color: white;
 }
