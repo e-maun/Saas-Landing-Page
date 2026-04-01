@@ -18,7 +18,8 @@ This project is for learning and practicing:
 🚧 Work in Progress
 
 ##Progress
-Overall project completion: 60%
+Overall project completion: 85%
+Polishing Only
 
 ## Tech Stack
 
