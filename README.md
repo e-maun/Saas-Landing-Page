@@ -18,7 +18,7 @@ This project is for learning and practicing:
 🚧 Work in Progress
 
 ##Progress
-Overall project completion: 30%
+Overall project completion: 60%
 
 ## Tech Stack
 
