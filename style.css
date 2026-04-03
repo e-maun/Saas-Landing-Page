@@ -33,8 +33,9 @@ HEADER.transparent{
 }
 .block--blue{
      background-color: rgba(170, 202, 247, 0.822);
-     height: 100vh
-     
+      min-height: 100vh;
+    display: flex;
+  align-items: center;
 }
 .block--grey{
     background-color: #969696cc;
@@ -43,8 +44,12 @@ HEADER.transparent{
   padding-top: 180px;
 }
 #leftTXTcontainer{
-    padding: 100px;
-    padding-bottom: 200px;
+    padding: 40px;
+}
+@media (max-width: 768px) {
+  #leftTXTcontainer {
+    padding: 20px;
+  }
 }
 .badge {
   background-color: #d2f2c3e9;
@@ -170,8 +175,6 @@ HEADER.transparent{
     background-color: #f2f9ffdd;
   
 }
-/*Section 5*/
-
 /*Section 7*/
 #sec7{
   background-color: #dbebf794;
