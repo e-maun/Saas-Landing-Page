@@ -15,11 +15,11 @@ This project is for learning and practicing:
 
 ## Status
 
-🚧 Work in Progress
+Done
 
 ##Progress
-Overall project completion: 85%
-Polishing Only
+Overall project completion: 100%
+Finished but still can be improve
 
 ## Tech Stack
 
